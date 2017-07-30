@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<title>Matrix Determinant</title>
+
+<link rel="stylesheet" type="text/css" href="../static/css/templateFormat.css">
+<script src="../static/js/determinant.js"></script>
+
+<head>
+	<div class="title">
+		<br>
+		<a href="index.html">Matrix Transpose</a>
+		<h5 style="font-size: 20px">by Shivam Patel</h5>
+	</div>
+</head>
+
+<body background="../static/images/bck.jpg">
+<div id="wrapper">
+	<div id="sideNav">
+		<table style="width: 200px">
+				<tr>
+					<td><h1 id="op">Operations</h1></td>
+				</tr>
+				<tr>
+					<td><a id="op" href="add.html">Matrix Addition</a></td>
+				</tr>
+				<tr>
+					<td><a id="op" href="subtract.html">Matrix Subtraction</a></td>
+				</tr>
+				<tr>
+					<td><a id="op" href="multiply.html">Matrix Multiplication</a></td>
+				</tr>
+				<tr>
+					<td><a id="op" href="determinant.html">Matrix Determinant</a></td>
+				</tr>
+				<tr>
+					<td><a id="op" href="transpose.html">Matrix Transpose</a></td>
+				</tr>
+		</table>
+	</div>
+	<div id="matrixCalcRegion">
+		<h1 style="color: white">Calculate Matrix Determinant</h1>
+		<p id="formText">Please enter the Dimensions of the Matrix</p>
+		<p id="formText">Remember: Matrix must be square</p>
+		<form>
+			<table>
+				<tr>
+					<td>
+						<p id=formText>Rows x Columns:</p>
+					</td>
+					<td>
+						<input type="number" id="rowV" min="1" max="10">
+					</td>
+					<td>
+						<p id=formText> X </p>
+					</td>
+					<td>
+						<input type="number" id="colV" min="1" max="10">
+					</td>
+				</tr>
+			</table>
+		<button id="submitButton" type="button" onclick="getDim()">Create Matrix</button>
+		</form >
+		<div id="matrixInputRegion"></div>	
+	</div>
+	<div id="resultArea"></div>
+
+</div>
+
+
+
+
+
+	
+	
+</body>
+</html>

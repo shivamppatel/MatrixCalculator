@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<title>Matrix Transpose</title>
+
+<link rel="stylesheet" type="text/css" href="../static/css/templateFormat.css">
+<link rel="stylesheet" type="text/css" href="../static/css/operations.css">
+<link rel="stylesheet" type="text/css" href="../static/css/transpose.css">
+<script src="../static/js/transpose.js"></script>
+
+<head>
+	<div class="title">
+		<br>
+		<a href="index.html">Matrix Transpose</a>
+		<h5 style="font-size: 20px">by Shivam Patel</h5>
+	</div>
+</head>
+
+<body background="../static/images/bck.jpg">
+<div id="wrapper">
+	<div id="sideNav">
+		<table style="width: 200px">
+				<tr>
+					<td><h1 id="op">Operations</h1></td>
+				</tr>
+				<tr>
+					<td><a id="op" href="add.html">Matrix Addition</a></td>
+				</tr>
+				<tr>
+					<td><a id="op" href="subtract.html">Matrix Subtraction</a></td>
+				</tr>
+				<tr>
+					<td><a id="op" href="multiply.html">Matrix Multiplication</a></td>
+				</tr>
+				<tr>
+					<td><a id="op" href="determinant.html">Matrix Determinant</a></td>
+				</tr>
+				<tr>
+					<td><a id="op" href="transpose.html">Matrix Transpose</a></td>
+				</tr>
+		</table>
+	</div>`
+	<div id="matrixCalcRegion">
+		<h1 style="color: white">Calculate Matrix Transpose</h1>
+		<p id="formText">Please enter the Dimensions of the Matrix</p>
+		<form>
+			<table>
+				<tr>
+					<td>
+						<p id=formText>Rows x Columns:</p>
+					</td>
+					<td>
+						<input type="number" id="rowV" min="1" max="10">
+					</td>
+					<td>
+						<p id=formText> X </p>
+					</td>
+					<td>
+						<input type="number" id="colV" min="1" max="10">
+					</td>
+				</tr>
+			</table>
+		<button id="submitButton" type="button" onclick="getDimTranspose()">Create Matrix</button>
+		</form >
+		<div id="matrixInputRegion"></div>	
+	</div>
+	<div id="resultArea"></div>
+</div>
+</body>
+</html>

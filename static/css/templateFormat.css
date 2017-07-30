@@ -1,0 +1,111 @@
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.title
+{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	line-height: 10px;
+}
+
+#op
+{
+	text-align: center;
+	color: white;
+}
+
+#sideNav
+{
+	position: absolute;
+	left: 50px;
+	top: 150px;
+	text-align: center;
+}
+
+#fillerArea
+{
+	float: left;
+	width: 100px;
+}
+
+#matrixCalcRegion
+{
+	position: absolute;
+	top: 150px;
+	left: 300px;
+}
+
+td
+{
+	padding: 5px;
+}
+
+#formText
+{
+	color: white;
+	text-align: center;
+}
+
+#resultArea
+{
+	position: absolute;
+	left: 800px;
+	top: 160px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#matrixInputRegion
+{
+	position: relative;
+	top: 20px;
+}
+
+#solutionTable
+{
+	border: 3px solid white;
+	border-collapse: collapse;
+}
+
+#outputText
+{
+	color: white;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-size: 40px;
+}
+
+input[type=number]{
+    width: 35px;
+} 
+
+#matrix1
+{
+	position: relative;
+	float: left;
+}
+
+#matrix2
+{
+	position: relative;
+	float: left;
+	left: 20px;
+}
+
+#informationRegion
+{
+	position: absolute;
+	top: 200px;
+	left: 300px;
+	width: 700px;
+}
+
+#info
+{
+	color: white;
+	text-align: center;
+}

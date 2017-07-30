@@ -1,0 +1,14 @@
+input[type=number]{
+    width: 30px;
+} 
+
+#addButtonRegion
+{
+	position: absolute, relative;
+	top: 20px;
+}
+
+td
+{
+	text-align: center;
+}
